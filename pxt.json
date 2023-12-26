@@ -1,5 +1,5 @@
 {
-    "name": "OLED01_RaízQuadrada2",
+    "name": "OLED01_RaízQuadrada",
     "description": "",
     "dependencies": {
         "core": "*",
