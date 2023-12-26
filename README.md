@@ -1,18 +1,9 @@
 
 > Abrir esta página em [https://manuelcsilva.github.io/oled01_raizquadrada/](https://manuelcsilva.github.io/oled01_raizquadrada/)
 
-## Utilizar como Extensão
+## Usar este projeto
 
-Este repositório pode ser adicionado como uma **extensão** no MakeCode.
-
-* abrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* clica em **Novo Projeto**
-* clica em **Extensões** sob o menu de definições
-* procurar um **https://github.com/manuelcsilva/oled01_raizquadrada** e importar
-
-## Editar este projeto
-
-Para editar este repositório no MakeCode.
+Para usar este repositório no MakeCode.
 
 * abrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * clica em **Importar** e, em seguida, em **Importar URL**
