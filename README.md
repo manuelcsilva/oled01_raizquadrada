@@ -1,5 +1,3 @@
-> Abrir esta página em [https://manuelcsilva.github.io/oled01_raizquadrada/](https://manuelcsilva.github.io/oled01_raizquadrada/)
-
 ## Material
 * micro:bit
 * display OLED 128x64 para micro:bit - Kitronik
