@@ -1,3 +1,10 @@
+def on_logo_pressed():
+    global num
+    num = 0
+    kitronik_VIEW128x64.clear()
+    kitronik_VIEW128x64.show("Raiz Quadrada de " + ("" + str(num)), 1)
+input.on_logo_event(TouchButtonEvent.PRESSED, on_logo_pressed)
+
 def on_button_pressed_a():
     global num
     num = num + 1
@@ -14,17 +21,8 @@ def on_button_pressed_b():
     serial.write_number(Math.sqrt(num))
 input.on_button_pressed(Button.B, on_button_pressed_b)
 
-def on_logo_long_pressed():
-    pass
-input.on_logo_event(TouchButtonEvent.LONG_PRESSED, on_logo_long_pressed)
-
 num = 0
-led.set_brightness(23)
 kitronik_VIEW128x64.control_display_on_off(kitronik_VIEW128x64.on_off(True))
 kitronik_VIEW128x64.set_font_size(kitronik_VIEW128x64.FontSelection.NORMAL)
 serial.write_line("ON")
 kitronik_VIEW128x64.show("Raiz Quadrada de " + ("" + str(num)), 1)
-
-def on_forever():
-    basic.show_number(num)
-basic.forever(on_forever)
