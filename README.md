@@ -10,7 +10,3 @@ Para usar este repositório no MakeCode.
 * clica em **Importar** e, em seguida, em **Importar URL**
 * colar **https://github.com/manuelcsilva/oled01_raizquadrada** e clicar em importar
 
-#### Metadados (usados para pesquisa, renderização)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
